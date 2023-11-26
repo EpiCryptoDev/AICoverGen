@@ -262,6 +262,12 @@ if __name__ == '__main__':
                         ['https://huggingface.co/phant0m4r/LiSA/resolve/main/LiSA.zip', 'Lisa'],
                         ['https://pixeldrain.com/u/3tJmABXA', 'Gura'],
                         ['https://huggingface.co/Kit-Lemonfoot/kitlemonfoot_rvc_models/resolve/main/AZKi%20(Hybrid).zip', 'Azki']
+                        ['https://huggingface.co/Roscall/Elvis1950s/resolve/main/Elvis%201950s%20V2.zip', 'Elvis 50s']
+                        ['https://huggingface.co/Roscall/Elvis1968/resolve/main/1968%20Elvis.zip', 'Elvis 68']
+                        ['https://huggingface.co/Roscall/Elvis-1973/resolve/main/Elvis%20Presley%20(1973)%20(SVC%20211k%20steps).zip', 'Elvis 73']
+                        ['https://huggingface.co/Roscall/Elvis1968/resolve/main/Elvis%20Raspy.zip', 'Elvis Raspy']
+                        ['https://huggingface.co/AI-Wheelz/SelenaGomez_RVCv2/resolve/main/SelenaGRVC.zip', 'Selena Gomez']
+                        ['https://huggingface.co/AI-Wheelz/JennetteMcCurdyV2/resolve/main/JennetteV2.zip', 'Jennette McCurdy']
                     ],
                     [model_zip_link, model_name],
                     [],
