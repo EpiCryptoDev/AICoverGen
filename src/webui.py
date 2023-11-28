@@ -168,7 +168,7 @@ if __name__ == '__main__':
 
     with gr.Blocks(title='AICoverGenWebUI') as app:
 
-        gr.Label('CoverAI created with ❤️', show_label=False)
+        gr.Label('CoverAI - Create exclusive covers within few minutes', show_label=False)
 
         # main tab
         with gr.Tab("Generate"):
@@ -319,6 +319,10 @@ if __name__ == '__main__':
                 model_upload_button = gr.Button('Upload model', variant='primary', scale=19)
                 local_upload_output_message = gr.Text(label='Output Message', interactive=False, scale=20)
                 model_upload_button.click(upload_local_model, inputs=[zip_file, local_model_name], outputs=local_upload_output_message)
+                
+        # About tab
+        with gr.Tab('About'):
+            gr.Markdown('## Upload locally trained RVC v2 model and index file')
 
     app.launch(
         share=args.share_enabled,
